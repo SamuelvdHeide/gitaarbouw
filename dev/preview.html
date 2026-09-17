@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gitaarbouw – modelcontrole</title>
+    <style>
+      body { margin: 0; font: 13px system-ui, sans-serif; background: #d7dad5; }
+      #stage { position: fixed; left: -4000px; top: 0; width: 900px; height: 520px; }
+      #grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+      figure { margin: 0; position: relative; background: radial-gradient(#eceee9, #b9beb7); }
+      figure img { display: block; width: 100%; }
+      figcaption { position: absolute; left: 8px; top: 6px; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <div id="stage"></div>
+    <div id="grid"></div>
+    <script type="module" src="./preview.js"></script>
+  </body>
+</html>
